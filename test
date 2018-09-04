@@ -1,0 +1,13 @@
+#!/bin/sh
+
+func1() {
+echo "Hi, This is from func1"
+func2
+}
+
+func2() {
+	echo "Hi, This is from func2"
+}
+
+
+func1
